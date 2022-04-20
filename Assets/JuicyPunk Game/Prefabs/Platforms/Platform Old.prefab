@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6369661613452292651}
   - component: {fileID: 5569037276027770378}
   m_Layer: 8
-  m_Name: Platform
+  m_Name: Platform Old
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BoundsBasedOn: 1
-  LifeTime: 0
+  LifeTime: 7
 --- !u!60 &5569037276027770378
 PolygonCollider2D:
   m_ObjectHideFlags: 0
