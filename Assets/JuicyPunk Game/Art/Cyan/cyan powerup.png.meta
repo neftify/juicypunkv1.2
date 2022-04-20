@@ -1,31 +1,25 @@
 fileFormatVersion: 2
-guid: e7efc9b068984e643891dd69e797f2c2
+guid: 6d6d9b75c9cd28849bd5580ad49e7cd4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3127613554184450113
-    second: CYAN RUN AND IDLE_0
+      213: -41710962832404583
+    second: cyan powerup_0
   - first:
-      213: 9096475346234860631
-    second: CYAN RUN AND IDLE_1
+      213: 6742528470788418389
+    second: cyan powerup_1
   - first:
-      213: -7385798681152777511
-    second: CYAN RUN AND IDLE_2
+      213: 4312270291412984377
+    second: cyan powerup_2
   - first:
-      213: 1219414355103339789
-    second: CYAN RUN AND IDLE_3
+      213: 3517951027663069498
+    second: cyan powerup_3
   - first:
-      213: -8517439705836003167
-    second: CYAN RUN AND IDLE_4
+      213: -3732959839212035755
+    second: cyan powerup_4
   - first:
-      213: -3240133510916117669
-    second: CYAN RUN AND IDLE_5
-  - first:
-      213: 6120418947364761708
-    second: CYAN RUN AND IDLE_6
-  - first:
-      213: 3442413087854201419
-    second: CYAN RUN AND IDLE_7
+      213: 1171768396982244468
+    second: cyan powerup_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,10 +83,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,10 +95,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,10 +107,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -127,11 +121,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CYAN RUN AND IDLE_0
+      name: cyan powerup_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1000
+        x: 5
+        y: 500
         width: 500
         height: 500
       alignment: 0
@@ -141,77 +135,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbf83241b0c7894d0800000000000000
-      internalID: -3127613554184450113
+      spriteID: 99f822da910db6ff0800000000000000
+      internalID: -41710962832404583
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CYAN RUN AND IDLE_1
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 1000
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7546d68d12c2d3e70800000000000000
-      internalID: 9096475346234860631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CYAN RUN AND IDLE_2
-      rect:
-        serializedVersion: 2
-        x: 1000
-        y: 1000
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d2175b2b3f508990800000000000000
-      internalID: -7385798681152777511
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CYAN RUN AND IDLE_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 503
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d0552fd25ea3ce010800000000000000
-      internalID: 1219414355103339789
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CYAN RUN AND IDLE_4
+      name: cyan powerup_1
       rect:
         serializedVersion: 2
         x: 500
@@ -225,14 +156,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a066d107b9fbc980800000000000000
-      internalID: -8517439705836003167
+      spriteID: 55b2d45bbe5429d50800000000000000
+      internalID: 6742528470788418389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CYAN RUN AND IDLE_5
+      name: cyan powerup_2
       rect:
         serializedVersion: 2
         x: 1000
@@ -246,14 +177,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5b61012dbbb803d0800000000000000
-      internalID: -3240133510916117669
+      spriteID: 932242f8bf248db30800000000000000
+      internalID: 4312270291412984377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CYAN RUN AND IDLE_6
+      name: cyan powerup_3
       rect:
         serializedVersion: 2
         x: 0
@@ -267,14 +198,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c603f32fa9810f450800000000000000
-      internalID: 6120418947364761708
+      spriteID: a31e31d12d542d030800000000000000
+      internalID: 3517951027663069498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CYAN RUN AND IDLE_7
+      name: cyan powerup_4
       rect:
         serializedVersion: 2
         x: 500
@@ -288,8 +219,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4a84b7f678e5cf20800000000000000
-      internalID: 3442413087854201419
+      spriteID: 551a7f6edccd13cc0800000000000000
+      internalID: -3732959839212035755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyan powerup_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474d7251625f24010800000000000000
+      internalID: 1171768396982244468
       vertices: []
       indices: 
       edges: []
