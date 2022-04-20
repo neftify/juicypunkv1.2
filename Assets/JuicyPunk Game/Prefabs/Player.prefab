@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4494677942083754681}
   - component: {fileID: 4347903714547474818}
   - component: {fileID: 6559034220831145300}
+  - component: {fileID: 923023930303202072}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -3127613554184450113, guid: e7efc9b068984e643891dd69e797f2c2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -182,7 +183,7 @@ MonoBehaviour:
   ResetPositionSpeed: 0.5
   GroundDistanceTolerance: 0.05
   InitialInvincibilityDuration: 3
-  JumpForce: 20
+  JumpForce: 19
   NumberOfJumpsAllowed: 2
   CooldownBetweenJumps: 0
   JumpsAllowedWhenGroundedOnly: 0
@@ -191,3 +192,17 @@ MonoBehaviour:
   MinimalDelayBetweenJumps: 0.02
   UngroundedDurationAfterJump: 0.2
   _numberOfJumpsLeft: 0
+--- !u!114 &923023930303202072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993311588582281013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5451e999c8f9dfb41aa3b2894ffc3d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParameterName: Grounded
+  TargetAnimator: {fileID: 776153637214936279}
