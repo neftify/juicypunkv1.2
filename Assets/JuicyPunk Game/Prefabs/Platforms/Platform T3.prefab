@@ -51,9 +51,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3242234296135712272, guid: 76d2b4fb1bf0bc343877932637cebfd4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3242234296135712272, guid: 76d2b4fb1bf0bc343877932637cebfd4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.46000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 3662032002191681742, guid: 76d2b4fb1bf0bc343877932637cebfd4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3662032002191681742, guid: 76d2b4fb1bf0bc343877932637cebfd4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.778
+      objectReference: {fileID: 0}
     - target: {fileID: 4028287680023824138, guid: 76d2b4fb1bf0bc343877932637cebfd4, type: 3}
       propertyPath: m_Name
       value: Platform T3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569037276027770378, guid: 76d2b4fb1bf0bc343877932637cebfd4, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.75
       objectReference: {fileID: 0}
     - target: {fileID: 5569037276027770378, guid: 76d2b4fb1bf0bc343877932637cebfd4, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x

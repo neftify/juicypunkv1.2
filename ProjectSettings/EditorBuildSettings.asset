@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/JuicyPunk Game/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/JuicyPunk Game/Scenes/TitleScreen.unity
+    guid: f1aa67843b5a29d4a874d5ade2068e1c
+  - enabled: 1
+    path: Assets/JuicyPunk Game/Scenes/MainJuicyPunkGame.unity
+    guid: 151bdd625359f3f49bcbf07c66ec2508
   - enabled: 1
     path: Assets/InfiniteRunnerEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/LoadingScreen.unity
     guid: 888394d52616e5e42b3b54c3f2bbd3eb

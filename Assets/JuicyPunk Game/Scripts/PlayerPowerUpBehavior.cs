@@ -18,12 +18,18 @@ public class PlayerPowerUpBehavior : MonoBehaviour
         set {
             _PoweredUp = value;
             line.enabled = _PoweredUp;
+            if (_PoweredUp)
+            {
+                StopCoroutine("PowerDown");
+                StartCoroutine("PowerDown");
+            }
+
             animator.SetBool("PoweredUp", _PoweredUp);
             foreach (var shadow in speedShadow)
             {
                 shadow.gameObject.SetActive(_PoweredUp);
             }
-        } 
+        }
     }
     private bool _PoweredUp;
     float speed = 0.033f;
@@ -33,12 +39,15 @@ public class PlayerPowerUpBehavior : MonoBehaviour
         PoweredUp = false;
         StartCoroutine("LineUpdatePos");
     }
- \
-    private void Update()
-    {
-    }
+
     public Transform[] speedShadow;
     public List<Vector3> pastPos = new List<Vector3>();
+    float lifeTime = 3f;
+    IEnumerator PowerDown()
+    {
+            yield return new WaitForSeconds(lifeTime);
+            PoweredUp = false;
+    }
     IEnumerator LineUpdatePos()
     {
         for (int i = 0; i < speedShadow.Length; i++)
@@ -63,6 +72,8 @@ public class PlayerPowerUpBehavior : MonoBehaviour
         if (other.CompareTag("Juice"))
         {
             PoweredUp = true;
+            var jmp = GetComponent<MoreMountains.InfiniteRunnerEngine.Jumper>();        
+                jmp._numberOfJumpsLeft = jmp.NumberOfJumpsAllowed;
             other.gameObject.SetActive(false);
         }
     }

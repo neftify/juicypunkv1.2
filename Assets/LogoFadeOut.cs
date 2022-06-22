@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using MoreMountains.InfiniteRunnerEngine;
+using MoreMountains.Tools;
+
 public class LogoFadeOut : MonoBehaviour
 {
     [SerializeField]
@@ -17,12 +19,15 @@ public class LogoFadeOut : MonoBehaviour
     }
     float a = 1;
     // Update is called once per frame
+ 
     void Update()
     {
-       if ( gm.Status == GameManager.GameStatus.GameInProgress )
+       if ( gm.Status != GameManager.GameStatus.BeforeGameStart )
         {
             a -= Time.deltaTime  * (1/ lifeTime);
             logo.color = new Color(logo.color.r, logo.color.g, logo.color.b,a);
         }
+
+        
     }
 }

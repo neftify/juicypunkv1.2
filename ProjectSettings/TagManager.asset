@@ -6,6 +6,7 @@ TagManager:
   tags:
   - UICamera
   - Juice
+  - Damage
   layers:
   - Default
   - TransparentFX
